@@ -4,38 +4,45 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+.content{
+    text-align: center;
+    padding:0px 20%;
+}
 .puzzleBox{
-
     margin: auto;
-    padding: 20px;
     background-color: #b6b6b6;
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height:80vh;
     margin-top: 50px;
 
 }
-button{
-width: 100px;
-height: 100px;
+
+.puzzleBox button{
+width: 25%;
+height:25%;
 background-color: #000000b4;
 border: 1px solid black;
 color: white;
+font-size: 20px;
 
 }
-.controlButtons{
-    text-align: center;
-    
-}
-.instruction{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    color: white;
-}
-.moveCounter{
-    position: absolute;
-    top: 20px;
-    left: 40px;
-    color: white;
+.controlButtons {
     text-align: center;
 }
+
+.controlButtons button{
+    width: 150px;
+    height: 50px;
+    background-color: #000000b4;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  .puzzleBox{
+      width: 100%;
+    }
+  }
