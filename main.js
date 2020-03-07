@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //Get piece position
 
 var position1 = document.getElementById('1')
@@ -505,7 +504,6 @@ function noPossible(){
 
 
 
-=======
 //Get piece position
 
 var position1 = document.getElementById('1')
@@ -1011,5 +1009,3 @@ function noPossible(){
 }
 
 
-
->>>>>>> 353b7f432b080b9688cb7bcfb94d12b939c45f9b
