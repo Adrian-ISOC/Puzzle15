@@ -381,6 +381,8 @@ function pieceSixteen(){
 
 function play(){
 
+  
+
   moveNumber = document.getElementById('moveCounter').innerHTML = 0;
 
   var cantidadNumeros = 15;
