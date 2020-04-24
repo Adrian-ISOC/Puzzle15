@@ -17,7 +17,7 @@ var position14 = document.getElementById('14')
 var position15 = document.getElementById('15')
 var position16 = document.getElementById('16')
 
-moveNumber = document.getElementById('moveCounter').innerHTML = 0;
+var moveNumber = document.getElementById("moveCounter").innerHTML = 0;
 
 function counter(){
   moveNumber ++
@@ -700,12 +700,6 @@ if(position16.innerHTML == 16){
 
 }
 
-if (localStorage.clickcount) {
-  localStorage.clickcount = Number(localStorage.clickcount) + 1;
-} else {
-  localStorage.clickcount = 1;
-}
-document.getElementById("result").innerHTML = "You have clicked the button " +
-localStorage.clickcount + " time(s)."
+
 
 
