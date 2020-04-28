@@ -700,6 +700,3 @@ if(position16.innerHTML == 16){
 
 }
 
-
-
-
