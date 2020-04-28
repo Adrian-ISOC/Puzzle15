@@ -690,11 +690,11 @@ if(position15.innerHTML == 15){
 }
 
 if(position16.innerHTML == 16){
-  position16.style.backgroundColor = 'rgb(230, 230, 230)';
-  position16.style.color= 'black'
+  position16.style.backgroundColor = "rgb(230, 230, 230)";
+  position16.style.color= "black"
 }else{
- position16.style.backgroundColor = '#00000050';
- position16.style.color= 'white'
+ position16.style.backgroundColor = "#00000050";
+ position16.style.color= "white"
 
 }
 
