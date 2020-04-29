@@ -710,12 +710,14 @@ function saveBestRecord() {
   min = document.getElementById("hms").innerHTML.substring(3, 5)
   seg = document.getElementById("hms").innerHTML.substring(6)
 
+if(!localStorage.lastRecord){
   localStorage.setItem("lastRecord", parseInt(min) + ":" + parseInt(seg)) ;
   localStorage.setItem("lastRecordM", document.getElementById("moveCounter").innerHTML) ;
   document.getElementById("bestTime").innerHTML = "Movimientos: " + localStorage.lastRecordM + " Tiempo: " + localStorage.lastRecord;
   if(localStorage.lastRecord < 10){
     document.getElementById("bestTime").innerHTML = "Movimientos: " + localStorage.lastRecordM + " Tiempo: 0" + localStorage.lastRecord;
   }
+}
   
   if (parseInt(min) < localStorage.lastRecord.substring(0, 1)){
     localStorage.setItem("lastRecord", parseInt(min) + ":" + parseInt(seg)) ;
@@ -735,7 +737,6 @@ function saveBestRecord() {
     }
   }
 
-  console.log(localStorage)
  
 }
     // Retrieve
