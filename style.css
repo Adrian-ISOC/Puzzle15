@@ -1,34 +1,34 @@
 *{
     padding: 0px;
     margin: 0px;
- 
 }
-
+body{
+    background-color: #f9f9f9;
+}
 header{
     width:100%;
-    background-color:rgb(53, 53, 53);
+    background-color:rgb(71, 67, 67);
     color: white;
     position: fixed;
     top: 0px;
 }
 
 .logo{
-    padding: 30px;
+    padding: 20px;
 }
 .menu{
     position: absolute;
-    top: 40px;
+    top: 35px;
     right:5%;
 }
 .menu a{
     text-decoration: none;
-    color: white;
+    color: #f3bb95;
     padding: 10px;
 }
 .menu a:hover{
     color: #d4d3d3;
 }
-
 
 .effects img{
     position: absolute;
@@ -74,7 +74,7 @@ header{
 .puzzleBox button{
 height: 25%;
 width: 25%;
-background-color: #00000050;
+background-color: rgb(71, 67, 67);
 border: 1px solid rgb(194, 194, 194);
 color: white;
 font-size: 20px;
@@ -97,9 +97,16 @@ button a{
 }
 .content{
     margin: auto;
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: center;
     width: 70%;
+}
+.content h1{
+    font-size: 50px;
+    font-family: 'Bitter', serif;
+    color: #e88747;
+    padding: 50px 0px 50px 0px;
+
 }
 .content p{
     margin: 50px 0px 50px 0px;
@@ -137,6 +144,13 @@ padding-left: 20px;
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+.logo img{
+    width: 150px;
+}
+.menu {
+    top: 30px;
+    font-size: 14px;
+}
 .content{
     width: 95%;
 }

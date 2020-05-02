@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1864" height="366" viewBox="0 0 1864 366">
+  <g id="logo" transform="translate(-116 -301)">
+    <g id="isotipo">
+      <g id="Rectángulo_2" data-name="Rectángulo 2" transform="translate(470 312) rotate(90)" fill="#e87d11" stroke="#707070" stroke-width="1">
+        <rect width="172" height="177" stroke="none"/>
+        <rect x="0.5" y="0.5" width="171" height="176" fill="none"/>
+      </g>
+      <g id="Rectángulo_4" data-name="Rectángulo 4" transform="translate(470 484) rotate(90)" fill="#669e46" stroke="#707070" stroke-width="1">
+        <rect width="172" height="177" stroke="none"/>
+        <rect x="0.5" y="0.5" width="171" height="176" fill="none"/>
+      </g>
+      <g id="Rectángulo_5" data-name="Rectángulo 5" transform="translate(293 312) rotate(90)" fill="#b61e06" stroke="#707070" stroke-width="1">
+        <rect width="172" height="177" stroke="none"/>
+        <rect x="0.5" y="0.5" width="171" height="176" fill="none"/>
+      </g>
+      <g id="Rectángulo_6" data-name="Rectángulo 6" transform="translate(293 484) rotate(90)" fill="#6b1523" stroke="#707070" stroke-width="1">
+        <rect width="172" height="177" stroke="none"/>
+        <rect x="0.5" y="0.5" width="171" height="176" fill="none"/>
+      </g>
+    </g>
+    <text id="_15-Puzzle" data-name="15-Puzzle" transform="translate(641 582)" fill="#eba34b" font-size="284" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="0" y="0">15-Puzzle</tspan></text>
+  </g>
+</svg>
