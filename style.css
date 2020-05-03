@@ -57,12 +57,9 @@ header{
 .counters h3{
     padding-bottom: 5px;
 }
-.down{
-    display: none;
-}
 .puzzleBox{
     margin: auto;
-    background-color: rgb(53, 53, 53);
+    background-color:rgb(61, 43, 35);
     width: 40%;
     height:50vh;
     margin-top: 50px;
@@ -74,7 +71,7 @@ header{
 .puzzleBox button{
 height: 25%;
 width: 25%;
-background-color: rgb(71, 67, 67);
+background-color: rgba(26, 9, 1, 0.363);
 border: 1px solid rgb(194, 194, 194);
 color: white;
 font-size: 20px;
@@ -88,7 +85,7 @@ button a{
 }
 .controlButtons button{
     padding: 15px;
-    background-color: #000000e1;
+    background-color: rgb(47, 34, 28);
     border: 1px solid rgb(194, 194, 194);
     border-radius: 10px;
     color: white;
@@ -171,9 +168,6 @@ padding-left: 20px;
         padding: 10px;
         outline: none;
         font-size: 15px;
-    }
-    .down{
-        display: block;
     }
     .up{
        display: none;
